@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>MyClient\FW\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>MyClient\FW\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FWMain.cpp">
+      <Filter>MyClient\FW\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FWSceneManager.cpp">
+      <Filter>MyClient\FW\FWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FWWindows.cpp">
+      <Filter>MyClient\FW\FWWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>MyClient\FW\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>MyClient\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FWServer.cpp">
+      <Filter>MyClient\FW\FWServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MyClient\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>MyClient\Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>MyClient\Game\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCType.cpp">
+      <Filter>MyClient\Game\NPCType</Filter>
+    </ClCompile>
+    <ClCompile Include="ChattingSystem.cpp">
+      <Filter>MyClient\Game\ChattingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>MyClient\Game\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>MyClient\Game\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSystem.cpp">
+      <Filter>MyClient\Game\DataSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>MyClient\FW\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>MyClient\FW\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FWFrameTimer.h">
+      <Filter>MyClient\FW\FWTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="FWMain.h">
+      <Filter>MyClient\FW\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="FWScene.h">
+      <Filter>MyClient\FW\FWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FWSceneManager.h">
+      <Filter>MyClient\FW\FWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FWWindows.h">
+      <Filter>MyClient\FW\FWWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>MyClient\FW\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>MyClient\FW\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInclude.h">
+      <Filter>MyClient\FW\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDefine.h">
+      <Filter>MyClient\FW\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>MyClient\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FWServer.h">
+      <Filter>MyClient\FW\FWServer</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>MyClient\FW\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MyClient\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>MyClient\Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>MyClient\Game\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCType.h">
+      <Filter>MyClient\Game\NPCType</Filter>
+    </ClInclude>
+    <ClInclude Include="ChattingSystem.h">
+      <Filter>MyClient\Game\ChattingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>MyClient\Game\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>MyClient\Game\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>MyClient\Game\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSystem.h">
+      <Filter>MyClient\Game\DataSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MyClient">
+      <UniqueIdentifier>{9136ffd3-e1bf-42ed-aa56-55aa026cec7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW">
+      <UniqueIdentifier>{667a4512-fe3d-44e7-a2af-f2284405fb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\Main">
+      <UniqueIdentifier>{bbfc87ab-e57c-47ee-ab80-9188253b2155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\FWTimer">
+      <UniqueIdentifier>{58140ec2-ac3b-4de0-8beb-abbbfa0f506c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\FWScene">
+      <UniqueIdentifier>{435383e5-6acd-49e6-9769-44ebb03191ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\FWWindows">
+      <UniqueIdentifier>{1033c399-75cb-4107-9207-f46a2273b3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\Sprite">
+      <UniqueIdentifier>{fddab24c-ccbd-492a-839c-96cc03b33944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\Animation">
+      <UniqueIdentifier>{d8852cb6-e7dd-4e65-a32e-ef55897410b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\Singleton">
+      <UniqueIdentifier>{9cc15360-bd90-4d1d-8913-df60a61a5d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\MyData">
+      <UniqueIdentifier>{f20cb349-84c4-4ac5-9256-5affd4fffcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\Debug">
+      <UniqueIdentifier>{11e291e6-8c42-47fc-93cf-3cc24fd55f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game">
+      <UniqueIdentifier>{63826ffa-b997-454d-a011-e71bb7611486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\FW\FWServer">
+      <UniqueIdentifier>{ed60a239-55d5-4c23-9aac-80080c8e855f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\Player">
+      <UniqueIdentifier>{37865693-49c9-4a40-979a-f8dab1274a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\Monster">
+      <UniqueIdentifier>{b7553271-2747-4c22-925b-f7642de43d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\BaseObject">
+      <UniqueIdentifier>{ccdb60a8-3c56-4655-9278-cb02b14166a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\NPCType">
+      <UniqueIdentifier>{025500f4-686a-4a0d-8041-d0591d9bdfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\ChattingSystem">
+      <UniqueIdentifier>{10a54477-a132-4971-b9ee-ee3ad02fbde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\GameData">
+      <UniqueIdentifier>{8de27b77-cdfb-45aa-b47e-331e912399cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\Inventory">
+      <UniqueIdentifier>{221d086a-1d02-400d-a3e7-2b416a11c15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\Shop">
+      <UniqueIdentifier>{26b0bf0a-fa1f-474b-a433-c92edc49d54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClient\Game\DataSystem">
+      <UniqueIdentifier>{ef3fd70e-8a66-44a6-8feb-0d2cf4687ebf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

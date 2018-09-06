@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FW">
+      <UniqueIdentifier>{37367178-3407-4a47-81cd-a3bbe027665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\FWMain">
+      <UniqueIdentifier>{27d9d5f0-34c4-4bee-aae4-6c70be321466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\FWWindows">
+      <UniqueIdentifier>{08bc6313-8ccb-4044-b096-b6824c20eb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\Singleton">
+      <UniqueIdentifier>{d95fe9bf-3bfc-459d-a5ea-53a191f30db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My">
+      <UniqueIdentifier>{855dd614-7870-41d4-8c58-fe3ec5a204cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\FWSceneManager">
+      <UniqueIdentifier>{1fe95db4-21ff-4c82-9b52-069627f8fc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\FWSceneManager\FWScene">
+      <UniqueIdentifier>{10f2f66e-b66e-4684-a91f-d81b459af6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\Menu">
+      <UniqueIdentifier>{33c41964-361e-47a2-8bf6-bbfcb21a9449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\Sprite">
+      <UniqueIdentifier>{4ebbd68a-96e6-4178-88bd-a3fadfd93e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\Menu\Base">
+      <UniqueIdentifier>{c2c74759-a155-4d90-972e-45bf3273f72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\Menu\Base\SubMenu">
+      <UniqueIdentifier>{bd12f8a5-ba7f-4f46-865b-07cd000e4927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\Menu\Base\DrawMenu">
+      <UniqueIdentifier>{702ec8f3-b6d1-40ff-bb64-d4bf08823db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\LoadJcs">
+      <UniqueIdentifier>{62206343-5568-494f-9585-84211a285b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\LoadJcs\LoadObject">
+      <UniqueIdentifier>{5c58b3b5-4df0-48b8-b9f0-280977ea9358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="My\LoadFileData">
+      <UniqueIdentifier>{45fecf6a-f35d-497d-93cb-40a20daed26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\KeyManager">
+      <UniqueIdentifier>{52101c8a-4d1f-4028-ae98-a37ca3669f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\Debug">
+      <UniqueIdentifier>{a670012e-b26f-41b7-89f1-9ec5529a00f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\FWFrameTimer">
+      <UniqueIdentifier>{eeae5779-30af-40a7-9684-5f8bf78e103a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW\Animation">
+      <UniqueIdentifier>{fc1da07d-975e-4a68-9f95-cfc92a0ba90f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>FW</Filter>
+    </ClCompile>
+    <ClCompile Include="FWMain.cpp">
+      <Filter>FW\FWMain</Filter>
+    </ClCompile>
+    <ClCompile Include="FWWindows.cpp">
+      <Filter>FW\FWWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="FWSceneManager.cpp">
+      <Filter>FW\FWSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>My\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FW\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMenu.cpp">
+      <Filter>My\Menu\Base\DrawMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMenu.cpp">
+      <Filter>My\Menu\Base\SubMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadJcs.cpp">
+      <Filter>My\LoadJcs</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadObject.cpp">
+      <Filter>My\LoadJcs\LoadObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FW\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FWMain.h">
+      <Filter>FW\FWMain</Filter>
+    </ClInclude>
+    <ClInclude Include="FWWindows.h">
+      <Filter>FW\FWWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>FW\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInclude.h">
+      <Filter>My</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDefine.h">
+      <Filter>My</Filter>
+    </ClInclude>
+    <ClInclude Include="FWScene.h">
+      <Filter>FW\FWSceneManager\FWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FWSceneManager.h">
+      <Filter>FW\FWSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>My\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FW\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>My\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMenu.h">
+      <Filter>My\Menu\Base\DrawMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMenu.h">
+      <Filter>My\Menu\Base\SubMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadJcs.h">
+      <Filter>My\LoadJcs</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadObject.h">
+      <Filter>My\LoadJcs\LoadObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFileData.h">
+      <Filter>My\LoadFileData</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>FW\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>FW\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FWFrameTimer.h">
+      <Filter>FW\FWFrameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FW\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

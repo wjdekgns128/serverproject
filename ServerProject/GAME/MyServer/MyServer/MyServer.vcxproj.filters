@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{3307aba2-c179-4730-92b6-b9f02c6cfc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MyInclude">
+      <UniqueIdentifier>{455c529d-ef7d-4a36-99d8-ccc7bd5e5551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Protocol">
+      <UniqueIdentifier>{f502fc8c-b1b5-4b6b-9d45-64d8bc9cbabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Server\IOCPServer">
+      <UniqueIdentifier>{882ea4f0-bdc9-4547-8dcb-f85f64ae2a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MyData">
+      <UniqueIdentifier>{b0743501-575f-4cb1-bd62-4e9bdc596b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Utility">
+      <UniqueIdentifier>{069b3c02-771d-459d-8140-b99484c33ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ClientManager">
+      <UniqueIdentifier>{d2de7861-0284-4348-bed8-5774418a3afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ClientManager\SendManager">
+      <UniqueIdentifier>{f9f4c5b3-1e02-4380-80dc-23b5fae40856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ClientManager\Client">
+      <UniqueIdentifier>{adf6c901-0dc0-45df-ac7d-33111586cf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Process">
+      <UniqueIdentifier>{18b8398f-ae4f-47f9-96ca-290c4d8c7668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPCManager">
+      <UniqueIdentifier>{db10520b-f2f0-4fe8-911a-eeae48be4ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB">
+      <UniqueIdentifier>{1ecf3cff-e32a-4a47-942c-cc198b18f518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dump">
+      <UniqueIdentifier>{2ab1055f-b125-432c-9a41-4a0285276f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameData">
+      <UniqueIdentifier>{f20a07e0-07d0-4d70-b5be-8cf6bb902e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ItemData">
+      <UniqueIdentifier>{ca1c66cf-c58d-40b0-b5c3-51cef239189e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaFile">
+      <UniqueIdentifier>{fbbff0f4-44cf-4504-a856-35d7aa6b892b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일\Server\IOCPServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\ClientManager\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>소스 파일\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>소스 파일\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCManager.cpp">
+      <Filter>소스 파일\NPCManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DB.cpp">
+      <Filter>소스 파일\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>소스 파일\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.h">
+      <Filter>소스 파일\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>소스 파일\NPCManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>소스 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInclude.h">
+      <Filter>소스 파일\MyInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>소스 파일\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>소스 파일\Server\IOCPServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLog.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SingeTon.h">
+      <Filter>소스 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\ClientManager\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>소스 파일\ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SendManager.h">
+      <Filter>소스 파일\ClientManager\SendManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>소스 파일\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCManager.h">
+      <Filter>소스 파일\NPCManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData.h">
+      <Filter>소스 파일\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStruct.h">
+      <Filter>소스 파일\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCMonsterData.h">
+      <Filter>소스 파일\MyData</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.h">
+      <Filter>소스 파일\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>소스 파일\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>소스 파일\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>소스 파일\NPCManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuaFile\MonsterCType.lua">
+      <Filter>LuaFile</Filter>
+    </None>
+    <None Include="LuaFile\MonsterDType.lua">
+      <Filter>LuaFile</Filter>
+    </None>
+  </ItemGroup>
+</Project>
